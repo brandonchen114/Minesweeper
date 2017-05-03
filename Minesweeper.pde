@@ -127,7 +127,7 @@ public class MSButton
         {
             displayLosingMessage();
         }
-        else if(countBombs(r,c)>0)
+        else if(countBombs(r,c)>0)  
         {
             setLabel(""+countBombs(r,c));
         }
